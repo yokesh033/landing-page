@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    line-height: 1.6;
+    background-color: #f4f1f1;
+    color: #040404;
+}
+.hero{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 80px 20px;
+}
+.hero h1{
+    font-size: 3em;
+    color: black;
+}
+.hero .btn{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(237, 177, 116);
+    color: rgb(14, 13, 13);
+    text-decoration: none;
+    border-radius: 5px;
+}
+.features{
+    padding: 40px 20px;
+    text-align: center;
+    background-color:rgb(245, 232, 232);
+    
+}
+.features h2{
+     color: black;
+}
+.f-cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.card{
+    background-color:gray;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding:20px;
+    width: 250px;
+}
+.price{
+    background:rgb(245, 232, 232);
+    padding: 40px 20px;
+    text-align: center;
+}
+.price h2{
+     color:black;
+}
+.box{
+    background:gray;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+.box .btn{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #2810ae;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.reviews{
+    padding: 40px 20px;
+    text-align: center;
+    background-color: pink;
+}
+.reviews blockquote{
+    font-style:italic ;
+    margin: 20px auto;
+    max-width: 500px;
+}
+.footer{
+    background: pink;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
